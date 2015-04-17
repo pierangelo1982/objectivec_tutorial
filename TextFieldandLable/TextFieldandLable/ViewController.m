@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ButtonChangeLabel
+//  TextFieldandLable
 //
 //  Created by pierangelo on 17/04/15.
 //  Copyright (c) 2015 pierangelo. All rights reserved.
@@ -14,15 +14,12 @@
 
 @implementation ViewController
 
-
-
--(void)Cambia // funzione dichiarata in ViewController.h - -(IBAction)Cambia;
+- (void)Modifica
 {
-    
-    testo.text = @"il testo è cambiato"; /// testo. dichiarato in in ViewController.h interface -  IBOutlet UILabel *testo; 
-    
+    NSString *NomeUtente = Nome.text;
+    NSString *Out = [[NSString alloc] initWithFormat:@"Ciao %@", NomeUtente];
+    Output.text = Out;
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
