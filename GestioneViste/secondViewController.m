@@ -14,6 +14,14 @@
 
 @implementation secondViewController
 
+- (void)Indietro
+{
+
+    [self dismissViewControllerAnimated:YES completion:NULL];
+
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

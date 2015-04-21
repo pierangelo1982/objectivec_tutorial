@@ -10,4 +10,6 @@
 
 @interface secondViewController : UIViewController
 
+-(IBAction)Indietro;
+
 @end
