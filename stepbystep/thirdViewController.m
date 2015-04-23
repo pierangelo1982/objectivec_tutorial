@@ -1,26 +1,21 @@
 //
-//  secondViewController.m
+//  thirdViewController.m
 //  stepbystep
 //
-//  Created by pierangelo on 22/04/15.
+//  Created by pierangelo on 23/04/15.
 //  Copyright (c) 2015 pierangelo. All rights reserved.
 //
 
-#import "secondViewController.h"
+#import "thirdViewController.h"
 
-@interface secondViewController ()
+@interface thirdViewController ()
 
 @end
 
-@implementation secondViewController
-- (IBAction)Indietro:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
+@implementation thirdViewController
 
-- (IBAction)Cambia:(id)sender {
-    NSString *var1 = _campo.text;
-    NSString *out = [[NSString alloc] initWithFormat:@"Ciao %@", var1];
-    _testo.text = out;
+- (IBAction)indietro:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidLoad {

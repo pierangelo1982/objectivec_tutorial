@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "firstViewController.h"
 #import "secondViewController.h"
+#import "thirdViewController.h"
+
 
 
 @interface ViewController ()
@@ -25,8 +27,13 @@
 
 - (IBAction)avantiseconda:(id)sender {
     UIViewController *test = [self.storyboard instantiateViewControllerWithIdentifier:@"seconda"];
-    test.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    test.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:test animated:YES completion:nil];
+}
+- (IBAction)avantiterza:(id)sender {
+    UIViewController *test = [self.storyboard instantiateViewControllerWithIdentifier:@"third"];
+    test.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:test animated:YES completion:NULL];
 }
 
 - (void)viewDidLoad {

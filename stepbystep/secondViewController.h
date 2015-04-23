@@ -10,4 +10,7 @@
 
 @interface secondViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *campo;
+@property (strong, nonatomic) IBOutlet UILabel *testo;
+
 @end
