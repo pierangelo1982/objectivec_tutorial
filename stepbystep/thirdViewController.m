@@ -14,6 +14,14 @@
 
 @implementation thirdViewController
 
+- (IBAction)calcola:(id)sender {
+    NSInteger *valuno = ([_campouno.text integerValue]);
+    NSInteger *valdue = ([_campodue.text integerValue]);
+    NSInteger *somma = (int)valuno + (int)valdue;
+    NSString *risultato = [[NSString alloc] initWithFormat:@"il risultato è: %i", somma];
+    _totale.text = risultato;
+}
+
 - (IBAction)indietro:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

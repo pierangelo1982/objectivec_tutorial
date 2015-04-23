@@ -10,4 +10,8 @@
 
 @interface thirdViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *campouno;
+@property (strong, nonatomic) IBOutlet UITextField *campodue;
+@property (strong, nonatomic) IBOutlet UILabel *totale;
+
 @end
