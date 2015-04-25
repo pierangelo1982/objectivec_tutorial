@@ -36,8 +36,9 @@
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     /// valore del picker selezionato;
-    _Out = [NSString stringWithFormat:@"%@", [_dizionario objectAtIndex:row]];
-    _visualizzatore.text = _Out;
+    ///NSString *Out = [NSString stringWithFormat:@"%@", [_dizionario objectAtIndex:row]];
+    NSString *Out = [NSString stringWithFormat:@"%@", [_dizionario objectAtIndex:row]];
+    _visualizzatore.text = Out;
     
 }
 
@@ -49,12 +50,12 @@
     
     /// creaiamo i valori array
     _dizionario = [[NSMutableArray alloc] init];
-    [_dizionario addObject:@"1"];
-    [_dizionario addObject:@"2"];
-    [_dizionario addObject:@"3"];
-    [_dizionario addObject:@"4"];
-    [_dizionario addObject:@"5"];
-    [_dizionario addObject:@"6"];
+    [_dizionario addObject:@"Milano"];
+    [_dizionario addObject:@"Torino"];
+    [_dizionario addObject:@"Genova"];
+    [_dizionario addObject:@"Venezia"];
+    [_dizionario addObject:@"Trento"];
+    [_dizionario addObject:@"Aosta"];
 
 }
 
