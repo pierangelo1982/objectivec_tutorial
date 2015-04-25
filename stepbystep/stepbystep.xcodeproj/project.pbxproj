@@ -15,6 +15,7 @@
 		E770B2261AE822290082C42A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E770B2241AE822290082C42A /* LaunchScreen.xib */; };
 		E770B2321AE822290082C42A /* stepbystepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E770B2311AE822290082C42A /* stepbystepTests.m */; };
 		E770B23D1AE8236E0082C42A /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E770B23C1AE8236E0082C42A /* firstViewController.m */; };
+		E77AC42B1AEBF24D008C6A46 /* fourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AC42A1AEBF24D008C6A46 /* fourthViewController.m */; };
 		E77EF97D1AE831A70082884F /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EF97C1AE831A70082884F /* secondViewController.m */; };
 		E7869E781AE9491F00D9F407 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7869E771AE9491F00D9F407 /* thirdViewController.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 		E770B2311AE822290082C42A /* stepbystepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stepbystepTests.m; sourceTree = "<group>"; };
 		E770B23B1AE8236E0082C42A /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firstViewController.h; path = ../firstViewController.h; sourceTree = "<group>"; };
 		E770B23C1AE8236E0082C42A /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = firstViewController.m; path = ../firstViewController.m; sourceTree = "<group>"; };
+		E77AC4291AEBF24D008C6A46 /* fourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fourthViewController.h; path = ../fourthViewController.h; sourceTree = "<group>"; };
+		E77AC42A1AEBF24D008C6A46 /* fourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fourthViewController.m; path = ../fourthViewController.m; sourceTree = "<group>"; };
 		E77EF97B1AE831A70082884F /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondViewController.h; path = ../secondViewController.h; sourceTree = "<group>"; };
 		E77EF97C1AE831A70082884F /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondViewController.m; path = ../secondViewController.m; sourceTree = "<group>"; };
 		E7869E761AE9491F00D9F407 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				E77EF97C1AE831A70082884F /* secondViewController.m */,
 				E7869E761AE9491F00D9F407 /* thirdViewController.h */,
 				E7869E771AE9491F00D9F407 /* thirdViewController.m */,
+				E77AC4291AEBF24D008C6A46 /* fourthViewController.h */,
+				E77AC42A1AEBF24D008C6A46 /* fourthViewController.m */,
 				E770B21F1AE822290082C42A /* Main.storyboard */,
 				E770B2221AE822290082C42A /* Images.xcassets */,
 				E770B2241AE822290082C42A /* LaunchScreen.xib */,
@@ -236,6 +241,7 @@
 			files = (
 				E770B21E1AE822290082C42A /* ViewController.m in Sources */,
 				E770B21B1AE822290082C42A /* AppDelegate.m in Sources */,
+				E77AC42B1AEBF24D008C6A46 /* fourthViewController.m in Sources */,
 				E7869E781AE9491F00D9F407 /* thirdViewController.m in Sources */,
 				E770B2181AE822290082C42A /* main.m in Sources */,
 				E770B23D1AE8236E0082C42A /* firstViewController.m in Sources */,

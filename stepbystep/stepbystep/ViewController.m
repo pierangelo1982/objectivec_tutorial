@@ -10,6 +10,7 @@
 #import "firstViewController.h"
 #import "secondViewController.h"
 #import "thirdViewController.h"
+#import "fourthViewController.h"
 
 
 
@@ -32,6 +33,11 @@
 }
 - (IBAction)avantiterza:(id)sender {
     UIViewController *test = [self.storyboard instantiateViewControllerWithIdentifier:@"third"];
+    test.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:test animated:YES completion:NULL];
+}
+- (IBAction)avantiquarta:(id)sender {
+    UIViewController *test = [self.storyboard instantiateViewControllerWithIdentifier:@"fourth"];
     test.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentViewController:test animated:YES completion:NULL];
 }

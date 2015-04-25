@@ -61,10 +61,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gE-92-2PF">
                                 <rect key="frame" x="58" y="142" width="204" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="altro">
+                                <state key="normal" title="PickerView">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="avantiquarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aza-Ci-9A6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -261,6 +264,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3B-NO-aAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1390" y="372"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="W8K-Uv-LF0">
+            <objects>
+                <viewController storyboardIdentifier="fourth" id="Mhd-af-H7C" customClass="fourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g4P-kp-HZk"/>
+                        <viewControllerLayoutGuide type="bottom" id="r8E-Rz-QU2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F12-XO-u95">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="658-d8-mPI">
+                                <rect key="frame" x="0.0" y="41" width="320" height="27"/>
+                                <color key="backgroundColor" red="1" green="0.82661512500000001" blue="0.13112823739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JnS-4J-c70">
+                                <rect key="frame" x="0.0" y="111" width="320" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Mhd-af-H7C" id="I79-sm-8eG"/>
+                                    <outlet property="delegate" destination="Mhd-af-H7C" id="bxl-L0-oNO"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPo-eh-TWD">
+                                <rect key="frame" x="137" y="383" width="52" height="30"/>
+                                <state key="normal" title="Indietro">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Indietro:" destination="Mhd-af-H7C" eventType="touchUpInside" id="wEJ-Eb-oQf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="etichetta" destination="658-d8-mPI" id="F8a-ww-kFD"/>
+                        <outlet property="selezionatore" destination="JnS-4J-c70" id="cEo-9Q-dQP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2UF-WB-4g3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740" y="372"/>
         </scene>
     </scenes>
 </document>
