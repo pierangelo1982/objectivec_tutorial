@@ -18,6 +18,7 @@
 		E77AC42B1AEBF24D008C6A46 /* fourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AC42A1AEBF24D008C6A46 /* fourthViewController.m */; };
 		E77EF97D1AE831A70082884F /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EF97C1AE831A70082884F /* secondViewController.m */; };
 		E7869E781AE9491F00D9F407 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7869E771AE9491F00D9F407 /* thirdViewController.m */; };
+		E7C34D4E1AF37722003CF96D /* fifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C34D4D1AF37722003CF96D /* fifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		E77EF97C1AE831A70082884F /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondViewController.m; path = ../secondViewController.m; sourceTree = "<group>"; };
 		E7869E761AE9491F00D9F407 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		E7869E771AE9491F00D9F407 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
+		E7C34D4C1AF37722003CF96D /* fifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fifthViewController.h; path = ../fifthViewController.h; sourceTree = "<group>"; };
+		E7C34D4D1AF37722003CF96D /* fifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fifthViewController.m; path = ../fifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E7869E771AE9491F00D9F407 /* thirdViewController.m */,
 				E77AC4291AEBF24D008C6A46 /* fourthViewController.h */,
 				E77AC42A1AEBF24D008C6A46 /* fourthViewController.m */,
+				E7C34D4C1AF37722003CF96D /* fifthViewController.h */,
+				E7C34D4D1AF37722003CF96D /* fifthViewController.m */,
 				E770B21F1AE822290082C42A /* Main.storyboard */,
 				E770B2221AE822290082C42A /* Images.xcassets */,
 				E770B2241AE822290082C42A /* LaunchScreen.xib */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C34D4E1AF37722003CF96D /* fifthViewController.m in Sources */,
 				E770B21E1AE822290082C42A /* ViewController.m in Sources */,
 				E770B21B1AE822290082C42A /* AppDelegate.m in Sources */,
 				E77AC42B1AEBF24D008C6A46 /* fourthViewController.m in Sources */,
